@@ -10,10 +10,10 @@ module.exports = {
     entry  : path.resolve(__dirname, 'src/index.js'),
     output : {
         path    : path.resolve(__dirname, 'dist'),
-        filename: 'fix-ios-12-keyboard-bug.min.js'
+        filename: 'patch-ios12-webview-keyboard.min.js'
     },
     plugins: [
         new UglifyJSPlugin(),
-        new webpack.BannerPlugin('fix-ios-12-keyboard-bug version: ' + config.version)
+        new webpack.BannerPlugin('patch-ios12-webview-keyboard version: ' + config.version)
     ]
 }

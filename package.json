@@ -1,15 +1,15 @@
 {
-  "name": "fix-ios-12-keyboard-bug",
+  "name": "patch-ios12-webview-keyboard",
   "version": "1.0.5",
   "description": "patch for iOS 12 key board bug",
-  "main": "dist/fix-ios-12-keyboard-bug.min.js",
+  "main": "dist/patch-ios12-webview-keyboard.min.js",
   "scripts": {
     "build": "webpack --config webpack.config.js --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MichaelIT/fix-ios-12-keyboard-bug.git"
+    "url": "https://github.com/MichaelIT/patch-ios12-webview-keyboard.git"
   },
   "author": "michael.00767@gmail.com",
   "license": "ISC",
