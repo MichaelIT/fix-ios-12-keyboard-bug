@@ -1,0 +1,21 @@
+{
+  "name": "fix-ios-12-keyboard-bug",
+  "version": "1.0.5",
+  "description": "patch for iOS 12 key board bug",
+  "main": "dist/fix-ios-12-keyboard-bug.min.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --colors",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelIT/fix-ios-12-keyboard-bug.git"
+  },
+  "author": "chenwucai@huize.com",
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
