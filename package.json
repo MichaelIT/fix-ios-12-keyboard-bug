@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/MichaelIT/fix-ios-12-keyboard-bug.git"
   },
-  "author": "chenwucai@huize.com",
+  "author": "michael.00767@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^2.2.0",
