@@ -43,13 +43,13 @@ npm run build
 ## Usage
 
 ```
-npm add fix-ios-12-keyboard-bug --save
-import 'fix-ios-12-keyboard-bug';
+npm add patch-ios12-webview-keyboard --save
+import 'patch-ios12-webview-keyboard';
 ```
 
-or just copy `node_modules\@hz\fix-ios-12-keyboard-bug\dist\fix-ios-12-keyboard-bug.min.js` and add to your html file.
+or just copy `node_modules\patch-ios12-webview-keyboard\dist\patch-ios12-webview-keyboard.min.js` and add to your html file.
 
 ```
-<script src='{{resDomain}}js/fix-ios-12-keyboard-bug.min.js'></script>
+<script src='{{resDomain}}js/patch-ios12-webview-keyboard.min.js'></script>
 ```
 
